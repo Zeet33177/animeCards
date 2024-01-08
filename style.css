@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-jjk{
+    border-radius: 15px;
+    margin: 20px;
+    position: relative;
+    left: 550px;
+    width: 318px;
+    height: 500px;
+    background: url("/Volume_1.webp");
+    box-shadow: -1px 1px 9px 3px black;
+    transition: all 0.5s;
+}
+.hover-mn{
+    filter: sepia(0.9) opacity(70%) blur(2px) ;
+    transform: perspective(900px) rotateX(25deg) translateY(-5%) ;  
+}
+.hover-jjk{
+    position: absolute;
+    top: 58px;
+    left: 598px;
+    width: 280px;
+    height: 440px;
+    transition: all 0.3s;
+}
+.hover-hv{
+    background: url("/jjkHover.webp");
+    transform: scale(1.1)
+}

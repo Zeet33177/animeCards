@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AnimeCards</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: lightcoral; color: white">
+    <div class="nav-bar">HOME</div>
+    <div class="container">
+      <div class="card-one">
+        <div class="main-jjk"></div>
+        <div class="hover-jjk"></div>
+      </div>
+      <div class="card-two"></div>
+    </div>
+  </body>
+  <script>
+    const mn = document.querySelector(".main-jjk");
+    const hv = document.querySelector(".hover-jjk");
+    hv.addEventListener("mouseover", () => {
+      mn.classList.add(".hover-mn");
+    });
+  </script>
+</html>
