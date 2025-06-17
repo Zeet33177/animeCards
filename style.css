@@ -10,7 +10,7 @@
     left: 550px;
     width: 318px;
     height: 500px;
-    background: url("/Volume_1.webp");
+    background: url("Volume_1.webp");
     box-shadow: -1px 1px 9px 3px black;
     transition: all 0.5s;
 }
@@ -27,6 +27,6 @@
     transition: all 0.3s;
 }
 .hover-hv{
-    background: url("/jjkHover.webp");
+    background: url("jjkHover.webp");
     transform: scale(1.1)
 }
